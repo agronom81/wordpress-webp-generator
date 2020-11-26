@@ -91,7 +91,7 @@ class Wds_Webp_Generate {
 		if($type == 'picture') {
 			return '<picture>
 					    <source srcset="'. $this->get_attachment_image_srcset($file_id, $img_size).'">
-					    <img src="'.wp_get_attachment_image_url( $file_id, $img_size ).'" alt="My default image">
+					    <img src="'.wp_get_attachment_image_url( $file_id, $img_size ).'" alt="'. $alt .'">
 					</picture>';
 		} else {
 			return '<img 
