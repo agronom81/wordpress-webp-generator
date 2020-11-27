@@ -1,10 +1,12 @@
 # wordpress-webp-generator
 
+Thanks Alena Lyakhova - https://www.linkedin.com/in/alena-lyakhova-169100109/
+
 This small script will allow you to create webp images uploaded via the media uploader on the fly.
 
 ## How to use
 
-Copy Wds_Webp_Generate.php into your theme and reference it from your functions.php file e.g. `require_once('Wds_Webp_Generate.php');`, then you're good to go.
+Copy wds_webp_generate.php into your theme and reference it from your functions.php file e.g. `require_once('wds_webp_generate.php');`, then you're good to go.
 
 You can then use it in your theme as such:
 
